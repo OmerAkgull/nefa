@@ -47,4 +47,10 @@ h6 {
 .nav-item {
   font-family: Poppins;
   font-weight: 400;
+}
+
+.navbar-brand {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 35px;
 }/*# sourceMappingURL=style.css.map */
