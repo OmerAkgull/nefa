@@ -1,19 +1,7 @@
-/*
-.container-navigation {
-    margin-left: 150px;
-    margin-right: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+#navContainer {
+    max-width: 85% !important;
 }
 
-.container-header {
-    margin-left: 170px;
-    margin-right: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-} */
-
+#headerContainer {
+    max-width: 82% !important;
+}
