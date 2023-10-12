@@ -82,31 +82,30 @@ header h1 {
   font-size: 1rem;
 }
 
-.navbar-nav {
-  margin-left: 7rem;
-}
-
 #headerButton {
   padding: 0.85rem 2rem;
   font-family: Poppins;
   font-weight: 500;
 }
 
+/*
 .container-navigation {
-  margin-left: 150px;
-  margin-right: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .container-header {
-  margin-left: 170px;
-  margin-right: 170px;
-  width: 100%;
-}
-
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} */
 #headerFirstColumn {
   margin-top: 7rem;
 }/*# sourceMappingURL=style.css.map */
