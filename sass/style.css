@@ -55,7 +55,17 @@ h6 {
   font-size: 35px;
 }
 
+.button-text {
+  font-size: 0.85rem;
+}
+
 #navbarButton {
   padding: 0.85rem 2.7rem;
   font-size: 1rem;
+}
+
+#headerButton {
+  padding: 0.85rem 2rem;
+  font-family: Poppins;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
