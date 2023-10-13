@@ -1,3 +1,5 @@
+@use "../abstracts/mixins";
+
 .nav-item {
   font-family: Poppins;
   font-weight: 400;
@@ -31,4 +33,25 @@ header {
   font-family: Poppins;
   font-weight: 400;
   font-size: 18px;
+}
+
+#trending {
+  @include mixins.table-title;
+  &:before {
+    content: "🔥";
+  }
+}
+
+#topGainers {
+  @include mixins.table-title;
+  &:before {
+    content: "🚀";
+  }
+}
+
+#recentlyAdded {
+  @include mixins.table-title;
+  &:before {
+    content: "💎";
+  }
 }

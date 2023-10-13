@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -77,6 +78,33 @@ header h1 {
   font-size: 18px;
 }
 
+#trending {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+}
+#trending:before {
+  content: "🔥";
+}
+
+#topGainers {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+}
+#topGainers:before {
+  content: "🚀";
+}
+
+#recentlyAdded {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+}
+#recentlyAdded:before {
+  content: "💎";
+}
+
 #navbarButton {
   padding: 0.85rem 2.8rem;
   font-size: 1rem;
@@ -98,6 +126,10 @@ header h1 {
 
 #headerContainer {
   max-width: 82% !important;
+}
+
+#tableContainer {
+  max-width: 86% !important;
 }
 
 #headerFirstColumn {
