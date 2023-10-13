@@ -81,13 +81,13 @@
                                 App</span></button></span>
                 </div>
                 <div class="col-7">
-                    <img src="assets/img/globe.png" alt="globe" class="img-fluid">
+                    <img src="assets/img/globe.png" alt="globe" class="img-fluid d-none d-lg-block">
                 </div>
             </div>
         </div>
     </header>
     <section class="graph">
-        <div class="container-fluid" id="tableContainer">
+        <div class="container-fluid border border-1 shadow pt-5 px-5 pb-4" id="tableContainer">
             <div class="row">
                 <div class="col-4">
                     <p id="trending">Trending</p>
@@ -103,7 +103,8 @@
                             <tr>
                                 <td>
                                     <img src="assets/img/bitcoin.png" alt="bitcoin" class="d-inline">
-                                    Bitcoin</td>
+                                    Bitcoin
+                                </td>
                                 <td>$3540,02</td>
                                 <td><img src="assets/img/positivegraph.png"></td>
                             </tr>
@@ -191,7 +192,7 @@
                             </tr>
                             <tr>
                                 <td> <img src="assets/img/musk-doge.png" alt="musk-doge" class="d-inline">
-                                Musk Doge</td>
+                                    Musk Doge</td>
                                 <td>$0.05681</td>
                                 <td><img src="assets/img/positivegraph.png"></td>
                             </tr>
@@ -203,6 +204,44 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-exchange">
+        <div class="container container-exchange">
+            <div class="row">
+                <div class="col-6 form-wrapper">
+                    <h2>Buy & trade on the 
+                        <span class="d-block"> original crypto exchange.</span></h2>
+                    <p class="my-4" id="under-text">Buy now and get 40% extra bonus Minimum pre-sale amount<span class="d-block"> 25 Crypto Coin. We accept
+                        BTC crypto-currency</span></p>
+                    <form class="my-3">
+                        <div>
+                            <label for="amount">Amount</label>
+                            <input type="number" placeholder="5,000">
+                            <select name="currency" id="currency">
+                                <option selected value="USD">USD</option>
+                                <option value="Bitcoin">Bitcoin</option>
+                            </select>
+                        </div>
+                        <div>
+                            <br>
+                            <label for="Get">Get</label>
+                            <input type="number" placeholder="0.10901">
+                            <select name="currency" id="currency">
+                                <option selected value="Bitcoin">Bitcoin</option>
+                                <option value="USD">USD</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-primary mt-4 rounded-pill"
+                            style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: 14rem; --bs-btn-font-size: 1rem;" id="buyNow">
+                            Buy Now
+                        </button>
+                    </form>
+                </div>
+                <div class="col-6">
+                    <img src="assets/img/exchange.png" class="img-fluid" alt="exchange">
                 </div>
             </div>
         </div>
