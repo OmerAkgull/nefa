@@ -151,6 +151,11 @@ h3 {
   font-weight: 500;
 }
 
+#buyNow {
+  width: 100%;
+  padding: 0.75rem;
+}
+
 #navContainer {
   max-width: 85% !important;
 }
