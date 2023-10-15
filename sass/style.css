@@ -63,19 +63,20 @@ h6 {
 #signUp {
   font-family: Poppins;
   font-weight: 600;
-  size: 20px;
+  size: 14px;
 }
 
 header h1 {
   font-family: Poppins;
   font-weight: 700;
-  font-size: 68px;
+  font-size: 34px;
+  line-height: 42px;
 }
 
 #under-text {
   font-family: Poppins;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 #trending {
@@ -120,7 +121,7 @@ td {
 }
 
 .section-exchange h2 {
-  font-size: 36px;
+  font-size: 24px;
   font-family: Poppins;
   font-weight: 600;
 }
@@ -133,7 +134,13 @@ td {
 h3 {
   font-family: Poppins;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
+}
+
+#under-text-form {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 #navbarButton {
@@ -146,9 +153,9 @@ h3 {
 }
 
 #headerButton {
-  padding: 0.85rem 2rem;
   font-family: Poppins;
   font-weight: 500;
+  padding: 10px;
 }
 
 #buyNow {
@@ -160,29 +167,30 @@ h3 {
   max-width: 85% !important;
 }
 
+/*
 #headerContainer {
-  max-width: 82% !important;
+    max-width: 82% !important;
 }
-
+*/
 #tableContainer {
   max-width: 86% !important;
   border-radius: 30px;
 }
 
 .form-wrapper {
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 .container-exchange {
-  max-width: 75%;
+  max-width: 91%;
 }
 
 .container-partners {
   max-width: 97%;
   border-radius: 30px;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 #headerFirstColumn {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */

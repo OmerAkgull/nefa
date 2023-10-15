@@ -70,18 +70,21 @@
     <header class="bg-light">
         <div class="container-fluid" id="headerContainer">
             <div class="row">
-                <div class="col-lg-5" id="headerFirstColumn">
+                <div class="col-lg-5 text-center" id="headerFirstColumn">
                     <p id="signUp">SIGN UP TODAY</p>
-                    <h1>The World's Fastest Growing Crypto Web App</h1>
-                    <p id="under-text" class="my-4">Buy and sell 200+ cryptocurrencies with 20+ flat currencies using
+                    <h1>The World's <div>Fastest Growing</div> Crypto Web App</h1>
+                    <p id="under-text" class="my-4 d-none d-lg-block">Buy and sell 200+ cryptocurrencies with 20+ flat
+                        currencies using
                         bank transfers
                         or your
                         credit/debit card.</p>
-                    <button class="btn btn-primary rounded-pill" type="button" id="headerButton"><span
-                            class="button-text">Get Started</span></button>
-                    <span class="mx-2"><button class="btn btn-primary bg-transparent text-primary rounded-pill"
-                            type="button" id="headerButton"><span class="button-text">Download
-                                App</span></button></span>
+                    <div class="d-grid d-md-block gap-2 col-9 mx-auto mt-3">
+                        <button class="btn btn-primary rounded-pill" type="button" id="headerButton"><span
+                                class="button-text">Get Started</span></button>
+                        <button class="btn btn-primary bg-transparent text-primary rounded-pill" type="button"
+                            id="headerButton"><span class="button-text">Download
+                                App</span></button>
+                    </div>
                 </div>
                 <div class="col-lg-7">
                     <img src="assets/img/globe.png" alt="globe" class="img-fluid d-none d-lg-block">
@@ -214,13 +217,12 @@
     <section class="section-exchange">
         <div class="container-fluid container-exchange">
             <div class="row">
-                <div class="col-6 form-wrapper">
-                    <h2>Buy & trade on the
-                        <span class="d-block"> original crypto exchange.</span>
+                <div class="col-md-6 form-wrapper order-2 order-md-1">
+                    <h2>Buy & trade on the original crypto exchange.
                     </h2>
-                    <p class="my-4" id="under-text">Buy now and get 40% extra bonus Minimum pre-sale amount<span
-                            class="d-block"> 25 Crypto Coin. We accept
-                            BTC crypto-currency</span></p>
+                    <p class="my-4" id="under-text-form">Buy now and get 40% extra bonus Minimum pre-sale amount 25
+                        Crypto Coin. We accept
+                        BTC crypto-currency</span></p>
                     <form class="my-3">
                         <div>
                             <label for="amount">Amount</label>
@@ -244,7 +246,7 @@
                         </button>
                     </form>
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 order-1 order-md-2">
                     <img src="assets/img/exchange.png" class="img-fluid" alt="exchange">
                 </div>
             </div>
