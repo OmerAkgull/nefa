@@ -3,3 +3,9 @@
   font-weight: 500;
   font-size: 20px;
 }
+
+@mixin poppins-semibold {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+}

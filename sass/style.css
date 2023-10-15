@@ -121,9 +121,9 @@ td {
 }
 
 .section-exchange h2 {
-  font-size: 24px;
   font-family: Poppins;
   font-weight: 600;
+  font-size: 24px;
 }
 
 #buyNow {
@@ -141,6 +141,18 @@ h3 {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
+}
+
+h4 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 #navbarButton {
@@ -186,9 +198,16 @@ h3 {
 }
 
 .container-partners {
+  /*
   max-width: 97%;
   border-radius: 30px;
+  */
   margin-top: 4rem;
+}
+
+.container-cards,
+.container-tools {
+  max-width: 92%;
 }
 
 #headerFirstColumn {

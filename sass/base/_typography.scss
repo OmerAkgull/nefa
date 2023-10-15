@@ -73,9 +73,7 @@ td {
 
 .section-exchange {
   h2 {
-    font-size: 24px;
-    font-family: Poppins;
-    font-weight: 600;
+    @include mixins.poppins-semibold;
   }
 }
 
@@ -94,4 +92,14 @@ h3 {
   font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
+}
+
+h4 {
+  @include mixins.poppins-semibold;
+}
+
+h5 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
 }
