@@ -155,6 +155,33 @@ h5 {
   font-size: 16px;
 }
 
+@media screen and (min-width: 992px) {
+  #headerContainer {
+    max-width: 82% !important;
+  }
+  #signUp {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  header h1 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 82px;
+  }
+  #under-text {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  #headerButton {
+    padding: 15px 35px !important;
+  }
+  #headerFirstColumn {
+    margin-top: 150px !important;
+  }
+}
 #navbarButton {
   padding: 0.85rem 2.8rem;
   font-size: 1rem;
