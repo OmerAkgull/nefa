@@ -34,4 +34,60 @@
   header {
     padding-bottom: 50px !important;
   }
+
+  .section-exchange {
+    h2 {
+      font-family: Poppins;
+      font-weight: 600;
+      font-size: 36px;
+    }
+  }
+
+  .container-exchange {
+    max-width: 80% !important;
+  }
+
+  #exchangeFirstColumn {
+    margin-top: 130px;
+    margin-left: 70px;
+    width: 33%;
+}
+
+#waitlistButton {
+  font-family: Poppins;
+  font-weight: 500;
+  width: 47% !important;
+}
+
+h4 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+#credit-list {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.img-exchange {
+  margin-left: 300px;
+  width: 80%;
+}
+
+#creditColumn {
+  margin-top: 130px;
+  margin-left: 100px;
+  width: 30%;
+}
+
+.credit-card {
+  padding-bottom: 150px;
+}
+
+.img-cards {
+  width: 80%;
+  margin-left: 120px;
+}
 }

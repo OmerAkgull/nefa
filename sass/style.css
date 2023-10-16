@@ -137,9 +137,10 @@ h3 {
   font-size: 20px;
 }
 
-#under-text-form {
+#under-text-form,
+#credit-list {
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -184,6 +185,50 @@ h5 {
   header {
     padding-bottom: 50px !important;
   }
+  .section-exchange h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  .container-exchange {
+    max-width: 80% !important;
+  }
+  #exchangeFirstColumn {
+    margin-top: 130px;
+    margin-left: 70px;
+    width: 33%;
+  }
+  #waitlistButton {
+    font-family: Poppins;
+    font-weight: 500;
+    width: 47% !important;
+  }
+  h4 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  #credit-list {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .img-exchange {
+    margin-left: 300px;
+    width: 80%;
+  }
+  #creditColumn {
+    margin-top: 130px;
+    margin-left: 100px;
+    width: 30%;
+  }
+  .credit-card {
+    padding-bottom: 150px;
+  }
+  .img-cards {
+    width: 80%;
+    margin-left: 120px;
+  }
 }
 #navbarButton {
   padding: 0.85rem 2.8rem;
@@ -203,6 +248,11 @@ h5 {
 #buyNow {
   width: 100%;
   padding: 0.75rem;
+}
+
+#waitlistButton {
+  font-family: Poppins;
+  font-weight: 500;
 }
 
 #navContainer {
@@ -254,4 +304,13 @@ header {
 
 .graph {
   margin-top: -45px;
+}
+
+.section-exchange {
+  padding-bottom: 50px;
+}
+
+.credit-card {
+  margin-top: 100px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
