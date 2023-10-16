@@ -51,43 +51,83 @@
     margin-top: 130px;
     margin-left: 70px;
     width: 33%;
-}
+  }
 
-#waitlistButton {
-  font-family: Poppins;
-  font-weight: 500;
-  width: 47% !important;
-}
+  #waitlistButton {
+    font-family: Poppins;
+    font-weight: 500;
+    width: 47% !important;
+  }
 
-h4 {
-  font-family: Poppins;
-  font-size: 36px;
-  font-weight: 600;
-}
+  h4 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+  }
 
-#credit-list {
-  font-family: Poppins;
-  font-size: 18px;
-  font-weight: 400;
-}
+  #credit-list {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+  }
 
-.img-exchange {
-  margin-left: 300px;
-  width: 80%;
-}
+  .img-exchange {
+    margin-left: 300px;
+    width: 80%;
+  }
 
-#creditColumn {
-  margin-top: 130px;
-  margin-left: 100px;
-  width: 30%;
-}
+  #creditColumn {
+    margin-top: 130px;
+    margin-left: 100px;
+    width: 30%;
+  }
 
-.credit-card {
-  padding-bottom: 150px;
-}
+  .credit-card {
+    padding-bottom: 200px;
+  }
 
-.img-cards {
-  width: 80%;
-  margin-left: 120px;
-}
+  .img-cards {
+    width: 80%;
+    margin-left: 120px;
+  }
+
+  h5 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .container-cards {
+    max-width: 92%;
+  }
+  
+  .container-tools {
+    max-width: 97%;
+    border-radius: 30px;
+  }
+
+  .container-partners {
+    max-width: 97%;
+    border-radius: 30px;
+  }
+
+  .tools-column {
+      width: 30%;
+      margin-top: 120px;
+      margin-left: 200px;
+  }
+
+  .img-tools {
+       margin-left: 150px;
+  }
+
+  #getStarted {
+    width: 45% !important;
+  }
+
+  #link-text {
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+  }
 }
