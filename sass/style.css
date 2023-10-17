@@ -353,16 +353,18 @@ header {
 }
 
 .section-exchange {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .credit-card {
   margin-top: 100px;
+  padding-bottom: 75px;
+}
+
+.section-tools {
   padding-bottom: 50px;
 }
 
-/*
-.section-tools {
-    padding-bottom: 65px;
-}
-*//*# sourceMappingURL=style.css.map */
+.section-security {
+  margin-top: 60px;
+}/*# sourceMappingURL=style.css.map */
