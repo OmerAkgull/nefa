@@ -162,6 +162,12 @@ h5 {
   font-weight: 500;
 }
 
+h6 {
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 992px) {
   #headerContainer {
     max-width: 82% !important;
@@ -283,6 +289,16 @@ h5 {
   .img-security {
     width: 85%;
   }
+  h6 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .get-started {
+    max-width: 97%;
+    margin-left: 1.5%;
+    border-radius: 30px;
+  }
 }
 #navbarButton {
   padding: 0.85rem 2.8rem;
@@ -314,11 +330,6 @@ h5 {
   max-width: 85% !important;
 }
 
-/*
-#headerContainer {
-    max-width: 82% !important;
-}
-*/
 #tableContainer {
   max-width: 86% !important;
   border-radius: 30px;
@@ -334,6 +345,15 @@ h5 {
 
 .container-partners {
   margin-top: 4rem;
+}
+
+.getstarted {
+  max-width: 97%;
+  border-radius: 30px;
+}
+
+.container-getstarted {
+  max-width: 90%;
 }
 
 #headerFirstColumn {
@@ -361,10 +381,12 @@ header {
   padding-bottom: 75px;
 }
 
+/*
 .section-tools {
-  padding-bottom: 50px;
+    padding-bottom: 50px;
 }
-
+*/
 .section-security {
   margin-top: 60px;
+  padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
