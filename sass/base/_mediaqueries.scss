@@ -84,7 +84,8 @@
   }
 
   .credit-card {
-    padding-bottom: 200px;
+    padding-bottom: 150px !important;
+    margin-top: 150px !important;
   }
 
   .img-cards {
@@ -136,13 +137,17 @@
     max-width: 85%;
   }
 
+  .section-security {
+    margin-top: 100px;
+  }
+
   .security-column {
-    margin-top: 80px;
+    margin-top: 45px;
     margin-left: 20px;
     width: 40%;
   }
 
   .img-security {
-    width: 90%;
+    width: 85%;
   }
 }
