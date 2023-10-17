@@ -2,6 +2,7 @@
   #headerContainer {
     max-width: 82% !important;
   }
+
   #signUp {
     font-family: Poppins;
     font-weight: 600;
@@ -129,5 +130,19 @@
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
+  }
+
+  .container-security {
+    max-width: 85%;
+  }
+
+  .security-column {
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 40%;
+  }
+
+  .img-security {
+    width: 90%;
   }
 }
