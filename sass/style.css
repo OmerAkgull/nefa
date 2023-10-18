@@ -48,6 +48,7 @@ h6 {
 .nav-item {
   font-family: Poppins;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .navbar-brand {
@@ -165,6 +166,18 @@ h5 {
 h6 {
   font-size: 20px;
   font-family: Poppins;
+  font-weight: 600;
+}
+
+h7 {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.header-faq {
+  font-family: Poppins;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -326,6 +339,13 @@ h6 {
   font-weight: 500;
 }
 
+.btn-faq {
+  font-family: Poppins;
+  font-size: 14px;
+  color: #666666;
+  width: 50%;
+}
+
 #navContainer {
   max-width: 85% !important;
 }
@@ -354,6 +374,37 @@ h6 {
 
 .container-getstarted {
   max-width: 90%;
+}
+
+.container-faq {
+  max-width: 93%;
+}
+
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px solid #CCCCCC;
 }
 
 #headerFirstColumn {
@@ -388,5 +439,9 @@ header {
 */
 .section-security {
   margin-top: 60px;
+  padding-bottom: 50px;
+}
+
+.section-faq {
   padding-bottom: 50px;
 }/*# sourceMappingURL=style.css.map */
