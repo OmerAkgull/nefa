@@ -1,7 +1,9 @@
 @media screen and (min-width: 992px) {
+  /*
   #headerContainer {
     max-width: 82% !important;
   }
+  */
 
   #signUp {
     font-family: Poppins;
@@ -16,6 +18,8 @@
       font-size: 68px;
       line-height: 82px;
     }
+
+    padding-bottom: 0px !important;
   }
 
   #under-text {
@@ -29,11 +33,8 @@
   }
 
   #headerFirstColumn {
-    margin-top: 150px !important;
-  }
-
-  header {
-    padding-bottom: 50px !important;
+    margin-top: 250px !important;
+    padding-left: 200px;
   }
 
   .section-exchange {

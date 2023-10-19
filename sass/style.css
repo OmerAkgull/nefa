@@ -182,13 +182,18 @@ h7 {
 }
 
 @media screen and (min-width: 992px) {
+  /*
   #headerContainer {
     max-width: 82% !important;
   }
+  */
   #signUp {
     font-family: Poppins;
     font-weight: 600;
     font-size: 20px;
+  }
+  header {
+    padding-bottom: 0px !important;
   }
   header h1 {
     font-family: Poppins;
@@ -205,10 +210,8 @@ h7 {
     padding: 15px 35px !important;
   }
   #headerFirstColumn {
-    margin-top: 150px !important;
-  }
-  header {
-    padding-bottom: 50px !important;
+    margin-top: 250px !important;
+    padding-left: 200px;
   }
   .section-exchange h2 {
     font-family: Poppins;
