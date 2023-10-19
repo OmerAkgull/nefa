@@ -106,7 +106,8 @@ h5 {
   font-size: 16px;
 }
 
-#link-text {
+#link-text,
+#footer-link {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 500;
@@ -128,4 +129,12 @@ h7 {
   font-family: Poppins;
   font-size: 22px;
   font-weight: 600;
+}
+
+footer {
+  .text-center {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+  }
 }

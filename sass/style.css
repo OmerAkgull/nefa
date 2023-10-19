@@ -157,7 +157,8 @@ h5 {
   font-size: 16px;
 }
 
-#link-text {
+#link-text,
+#footer-link {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 500;
@@ -179,6 +180,12 @@ h7 {
   font-family: Poppins;
   font-size: 22px;
   font-weight: 600;
+}
+
+footer .text-center {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 992px) {
@@ -337,6 +344,30 @@ h7 {
   .btn-faq {
     width: 15% !important;
   }
+  footer .row {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+  }
+  #footer-1 {
+    border-top: 0px !important;
+  }
+  #footer-2,
+  #footer-3,
+  #footer-4 {
+    border-bottom: 0px !important;
+    border-right: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #footer-5 {
+    border-bottom: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 #navbarButton {
   padding: 0.85rem 2.8rem;
@@ -405,6 +436,10 @@ h7 {
   max-width: 93%;
 }
 
+.container-footer {
+  max-width: 88%;
+}
+
 .accordion {
   background-color: white;
   cursor: pointer;
@@ -469,4 +504,25 @@ header {
 
 .section-faq {
   padding-bottom: 50px;
+}
+
+#footer-1 {
+  border-top: 1px solid #DDDDDD;
+}
+
+#footer-2,
+#footer-3,
+#footer-4,
+#footer-5 {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+#footer-2,
+#footer-3,
+#footer-4 {
+  padding-bottom: 20px;
+}
+
+#footer-5 {
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
