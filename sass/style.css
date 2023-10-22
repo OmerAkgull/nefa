@@ -475,6 +475,43 @@ footer .text-center {
   border-bottom: 1px solid #cccccc;
 }
 
+#starPurpleHeader {
+  position: absolute;
+  left: 670px;
+  right: 0px;
+}
+
+#circlePurpleHeader {
+  position: absolute;
+  bottom: 250px;
+  left: 100px;
+  right: 0px;
+}
+
+#circleBlueHeader {
+  position: absolute;
+  left: 1050px;
+  bottom: 850px;
+}
+
+#circleOrangeHeader {
+  position: absolute;
+  right: -950px;
+  bottom: 420px;
+}
+
+#starPurpleTools {
+  position: absolute;
+  left: 200px;
+  bottom: 550px;
+}
+
+#circleOrangeTools {
+  position: absolute;
+  left: 900px;
+  bottom: 200px;
+}
+
 #headerFirstColumn {
   margin-top: 4rem;
 }
