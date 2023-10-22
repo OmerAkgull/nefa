@@ -143,7 +143,7 @@
   }
 
   .security-column {
-    margin-top: 45px;
+    margin-top: 60px !important;
     margin-left: 20px;
     width: 40%;
   }
@@ -168,6 +168,11 @@
     max-width: 97%;
     margin-left: 1.5%;
     border-radius: 30px;
+    padding-bottom: 3rem;
+
+    .col-lg-4 {
+      padding-top: 2rem;
+    }
   }
 
   .header-faq {
@@ -195,6 +200,8 @@
     .row {
       border-top: 1px solid #dddddd;
       border-bottom: 1px solid #dddddd;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 
@@ -219,5 +226,78 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .gradient-text-header {
+    background: var(
+      --GRA-Blue2,
+      linear-gradient(
+        169deg,
+        #3984f4 -6.01%,
+        #0cd3ff 36.87%,
+        #2f7cf0 78.04%,
+        #0e65e8 103.77%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+  }
+
+  .gradient-text-cards {
+    background: var(
+      --GRA-Blue2,
+      linear-gradient(
+        169deg,
+        #3984f4 -6.01%,
+        #0cd3ff 36.87%,
+        #2f7cf0 78.04%,
+        #0e65e8 103.77%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+  }
+
+  .gradient-text-tools {
+    background: var(
+      --GRA-Blue2,
+      linear-gradient(
+        169deg,
+        #3984f4 -6.01%,
+        #0cd3ff 36.87%,
+        #2f7cf0 78.04%,
+        #0e65e8 103.77%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .gradient-text-faq {
+    background: var(
+      --GRA-Blue,
+      linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

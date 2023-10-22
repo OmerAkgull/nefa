@@ -15,8 +15,9 @@
     <section class="bg-light">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid pt-3" id="navContainer">
-                <a class="navbar-brand" href="#"><img src="assets/svg/logo.svg" class="img-fluid d-none d-lg-block">
-                    <img src="assets/svg/logo_small.svg" class="img-fluid d-block d-lg-none"></a>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/svg/logo.svg" class="d-none d-md-block">
+                    <img src="assets/svg/logo_small.svg" class="d-block d-md-none"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -51,8 +52,9 @@
                             </ul>
                     </ul>
                     <div class="d-flex gap-3 ms-lg-auto">
-                        <button class="btn btn-primary rounded-pill nav-button">Log In</button>
-                        <button class="btn btn-outline-primary rounded-pill nav-button">Sign Up</button>
+                        <button class="btn btn-outline-primary rounded-pill nav-button">Log In</button>
+                        <button class="btn btn-primary rounded-pill nav-button">Sign Up
+                        </button>
                     </div>
                 </div>
             </div>
@@ -62,12 +64,12 @@
         <div class="container-fluid" id="headerContainer">
             <div class="row">
                 <div class="col-lg-5 text-center text-lg-start position-relative" id="headerFirstColumn">
-                    <img src="assets/svg/star_purple.svg" id="starPurpleHeader" class="d-none d-lg-block">
-                    <img src="assets/svg/circle_purple.svg" id="circlePurpleHeader" class="d-none d-lg-block">
-                    <img src="assets/svg/circle_blue.svg" id="circleBlueHeader" class="d-none d-lg-block">
-                    <img src="assets/svg/circle_orange.svg" id="circleOrangeHeader" class="d-none d-lg-block">
+                    <img src="assets/svg/star_purple.svg" id="starPurpleHeader" class="d-none d-xxl-block">
+                    <img src="assets/svg/circle_purple.svg" id="circlePurpleHeader" class="d-none d-xxl-block">
+                    <img src="assets/svg/circle_blue.svg" id="circleBlueHeader" class="d-none d-xxl-block">
+                    <img src="assets/svg/circle_orange.svg" id="circleOrangeHeader" class="d-none d-xxl-block">
                     <p id="signUp">SIGN UP TODAY</p>
-                    <h1>The World's <div>Fastest Growing</div> Crypto Web App</h1>
+                    <h1>The World's <div class="gradient-text-header">Fastest Growing</div> Crypto Web App</h1>
                     <p id="under-text" class="my-4 d-none d-lg-block">Buy and sell 200+ cryptocurrencies with 20+ flat
                         currencies using
                         bank transfers
@@ -87,6 +89,7 @@
             </div>
         </div>
     </header>
+</div>
     <section class="graph">
         <div class="container-fluid border border-1 shadow pt-5 px-5 pb-4 bg-white" id="tableContainer">
             <div class="row">
@@ -168,7 +171,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-4 mt-4 mt-lg-0">
+                <div class="col-md-4 mt-4 mt-lg-0 pb-5 pb-lg-0">
                     <p id="recentlyAdded" class="text-nowrap">Recently added</p>
                     <table class="table">
                         <thead>
@@ -248,7 +251,7 @@
         </div>
     </section>
     <section>
-        <div class="container-fluid container-partners text-center border border-1 shadow p-5 bg-light">
+        <div class="container-fluid container-partners text-center border border-1 shadow p-5 bg-gradient-light">
             <h3>Trusted Partners Worldwide</h3>
             <p id="under-text">We're partners with countless major organizations around the globe.</p>
             <div class="d-flex justify-content-center flex-wrap">
@@ -268,7 +271,7 @@
                 </div>
 
                 <div class="col-lg-6 mt-4" id="creditColumn">
-                    <h4 class="mt-2">Introducing the NEFA <div>Credit Card</div>
+                    <h4 class="mt-2">Introducing the <span class="gradient-text-cards">NEFA</span> <div>Credit Card</div>
                     </h4>
                     <p class="mt-4" id="under-text-form">Subject to cardholder and rewards terms which will be available
                         at
@@ -286,10 +289,10 @@
         </div>
     </section>
     <section class="section-tools">
-        <div class="container-fluid container-tools bg-light">
+        <div class="container-fluid container-tools bg-gradient-light">
             <div class="row">
                 <div class="col-lg-6 order-2 order-md-1 tools-column">
-                    <h4 class="my-4">Advanced Trading Tools</h4>
+                    <h4 class="my-4">Advanced Trading <span class="gradient-text-tools">Tools</span></h4>
                     <h5 class="my-4">Professional Access, Non-stop Availability</h5>
                     <p class="my-4" id="under-text-form">We provide premium access to crypto trading for both
                         individuals and institutions through high
@@ -304,7 +307,7 @@
                         managers for partners.</p>
                     <button class="btn btn-primary bg-transparent text-primary w-100 rounded-pill p-3 my-2"
                         type="button" id="getStarted"><span class="button-text">Get Started</span></button>
-                    <div class="text-center mt-2 d-lg-inline-block">
+                    <div class="text-center mt-2 d-lg-inline-block pb-5 pb-lg-0">
                         <a href="#" id="link-text">Learn more</a>
                     </div>
                 </div>
@@ -322,7 +325,7 @@
                 <div class="col-lg-6">
                     <img src="assets/img/security.png" class="img-fluid img-security" alt="security">
                 </div>
-                <div class="col-lg-6 security-column">
+                <div class="col-lg-6 mt-4 mt-lg-0 security-column">
                     <h4 class="mb-4">Industry-leading security from day one</h4>
                     <h5 class="my-3">Safety, security and compliance</h5>
                     <p class="my-3" id="under-text-form">NEFA is a licensed New York trust company that undergoes
@@ -338,7 +341,7 @@
             </div>
         </div>
     </section>
-    <section class="get-started bg-light">
+    <section class="get-started bg-gradient-light">
         <div class="container-fluid container-getstarted text-center">
             <div class="row pt-5">
                 <h6>Get started in just a few minutes</h6>
@@ -360,7 +363,7 @@
                         card to top
                         up your NEFA Wallet</p>
                 </div>
-                <div class="col-lg-4 my-3">
+                <div class="col-lg-4 my-3 pb-3 pb-lg-0">
                     <div class="d-flex justify-content-center">
                         <img src="assets/img/buy-crypto.png" class="img-fluid" alt="buy-crypto">
                     </div>
@@ -379,7 +382,7 @@
                     <img src="assets/img/faq.png" class="img-fluid img-faq">
                 </div>
                 <div class="col-lg-7 mt-4 accordion-column">
-                    <h7>SUPPORT</h7>
+                    <h7 class="gradient-text-faq">SUPPORT</h7>
                     <p class="header-faq">Frequently asked questions</p>
                     <button class="accordion">Why should I choose NEFA?</button>
                     <div class="panel">
@@ -425,28 +428,28 @@
                     <a><img src="assets/svg/logo.svg" class="img-fluid d-none d-lg-block">
                         <img src="assets/svg/logo_small.svg" class="img-fluid d-block d-lg-none"></a>
                 </div>
-                <div class="col-lg-2 my-3" id="footer-2">
+                <div class="col-lg-2" id="footer-2">
                     <p id="footer-link">Buy Crypto</p>
                     <p id="footer-link">Exchanges</p>
                     <p id="footer-link">Watchlist</p>
                     <p id="footer-link">Portfolio</p>
                     <p id="footer-link">NFT</p>
                 </div>
-                <div class="col-lg-2 my-3" id="footer-3">
+                <div class="col-lg-2" id="footer-3">
                     <p id="footer-link">Products</p>
                     <p id="footer-link">About Us</p>
                     <p id="footer-link">Careers</p>
                     <p id="footer-link">Blog</p>
                     <p id="footer-link">Security</p>
                 </div>
-                <div class="col-lg-3  my-3" id="footer-4">
+                <div class="col-lg-3" id="footer-4">
                     <p id="footer-link">Help Center</p>
                     <p id="footer-link">Contact Us</p>
                     <p id="footer-link">System Status</p>
                     <p id="footer-link">Area of Availability</p>
                     <p id="footer-link">Privacy Policy</p>
                 </div>
-                <div class="col-lg-3 my-3" id="footer-5">
+                <div class="col-lg-3" id="footer-5">
                     <p id="footer-link">Newsletter</p>
                     <p class="w-75" id="under-text">Never miss anything crypto when you're on the go</p>
                     <input type="email" placeholder="Enter your email">
