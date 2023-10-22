@@ -378,6 +378,14 @@ footer .text-center {
   margin-left: 5rem;
 }
 
+.nav-button {
+  width: 165px;
+  height: 65px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 #headerButton {
   font-family: Poppins;
   font-weight: 500;
