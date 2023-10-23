@@ -617,6 +617,14 @@ header {
   padding-bottom: 150px;
 }
 
+.pos-sign {
+  color: #28C165;
+}
+
+.neg-sign {
+  color: #F4574D;
+}
+
 .graph {
   margin-top: -45px;
 }
