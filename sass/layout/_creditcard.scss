@@ -1,4 +1,11 @@
 .credit-card {
-    margin-top: 100px;
-    padding-bottom: 75px;
+  margin-top: 100px;
+  padding-bottom: 75px;
+}
+
+#credit-list {
+    li::marker {
+        content: "";
+        display: inline-block;
+    }
 }

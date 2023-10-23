@@ -638,6 +638,11 @@ header {
   padding-bottom: 75px;
 }
 
+#credit-list li::marker {
+  content: "";
+  display: inline-block;
+}
+
 /*
 .section-tools {
     padding-bottom: 50px;
