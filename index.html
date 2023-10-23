@@ -80,7 +80,19 @@
                                 class="button-text">Get Started</span></button>
                         <button class="btn btn-primary bg-transparent text-primary rounded-pill" type="button"
                             id="headerButton"><span class="button-text">Download
-                                App</span></button>
+                                App</span> <svg class="d-inline-block" xmlns="http://www.w3.org/2000/svg" width="21"
+                                height="20" viewBox="0 0 21 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.79289 7.29289C6.18342 6.90237 6.81658 6.90237 7.20711 7.29289L10.5 10.5858L13.7929 7.29289C14.1834 6.90237 14.8166 6.90237 15.2071 7.29289C15.5976 7.68342 15.5976 8.31658 15.2071 8.70711L11.2071 12.7071C10.8166 13.0976 10.1834 13.0976 9.79289 12.7071L5.79289 8.70711C5.40237 8.31658 5.40237 7.68342 5.79289 7.29289Z"
+                                    fill="url(#paint0_linear_1_60)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_1_60" x1="3.94828" y1="6.41935" x2="9.89624"
+                                        y2="17.0163" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#468EF9" />
+                                        <stop offset="1" stop-color="#0C66EE" />
+                                    </linearGradient>
+                                </defs>
+                            </svg></button>
                     </div>
                 </div>
                 <div class="col-lg-7 globe">
@@ -94,7 +106,11 @@
         <div class="container-fluid border border-1 shadow pt-5 px-5 pb-4 bg-white" id="tableContainer">
             <div class="row">
                 <div class="col-md-4">
-                    <p id="trending">Trending</p>
+                    <div class="d-flex justify-content-between">
+                        <p id="trending">Trending
+                        </p>
+                        <a class="link-more me-lg-5" href="#">More ></a>
+                    </div>
                     <table class="table">
                         <thead>
                             <tr>
@@ -134,7 +150,11 @@
                     </table>
                 </div>
                 <div class="col-md-4 mt-4 mt-lg-0">
-                    <p id="topGainers">Top Gainers</p>
+                    <div class="d-flex justify-content-between">
+                        <p id="topGainers">Top Gainers<img src="assets/svg/chevron-down.svg"
+                                class="d-none d-lg-inline-block"></p>
+                        <a class="link-more me-lg-5" href="#">More ></a>
+                    </div>
                     <table class="table">
                         <thead>
                             <tr>
@@ -172,7 +192,10 @@
                     </table>
                 </div>
                 <div class="col-md-4 mt-4 mt-lg-0 pb-5 pb-lg-0">
-                    <p id="recentlyAdded" class="text-nowrap">Recently added</p>
+                    <div class="d-flex justify-content-between">
+                        <p id="recentlyAdded" class="text-nowrap">Recently added</p>
+                        <a class="link-more me-lg-5" href="#">More ></a>
+                    </div>
                     <table class="table">
                         <thead>
                             <tr>
@@ -391,7 +414,10 @@
                 <div class="col-lg-7 mt-4 accordion-column">
                     <h7 class="gradient-text-faq">SUPPORT</h7>
                     <p class="header-faq">Frequently asked questions</p>
-                    <button class="accordion">Why should I choose NEFA?</button>
+                    <button class="accordion">
+                        <div class="d-flex justify-content-between">Why should I choose NEFA? <img
+                                src="assets/svg/chevron-down.svg"></div>
+                    </button>
                     <div class="panel">
                         <p id="under-text">We're industry pioneers, having been in the cryptocurrency industry since
                             2016. We've
@@ -399,23 +425,30 @@
                             over 40 countries. Today, we're trusted by over 8 million customers around the world and
                             have received praise for our easy-to-use app, secure wallet, and range of features.</p>
                     </div>
-
-                    <button class="accordion">How secure is NEFA?</button>
+                    <button class="accordion">
+                        <div class="d-flex justify-content-between">How secure is NEFA? <img
+                                src="assets/svg/chevron-down.svg"></div>
+                    </button>
                     <div class="panel">
                         <p id="under-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-
-                    <button class="accordion">Do I have to buy a whole Bitcoin?</button>
+                    <button class="accordion">
+                        <div class="d-flex justify-content-between">Do I have to buy a whole Bitcoin?<img
+                                src="assets/svg/chevron-down.svg"></div>
+                    </button>
                     <div class="panel">
                         <p id="under-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
-                    <button class="accordion">How do I actually buy Bitcoin?</button>
+                    <button class="accordion">
+                        <div class="d-flex justify-content-between">How do I actually buy Bitcoin?<img
+                                src="assets/svg/chevron-down.svg"></div>
+                    </button>
                     <div class="panel">
                         <p id="under-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut
@@ -425,7 +458,8 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <button type="button" class="btn btn-faq btn-light p-3">Back to top</button>
+                <button type="button" class="btn btn-faq btn-light p-3">Back to top <img
+                        src="assets/svg/arrow-narrow-up.svg" class="d-inline-block"></button>
             </div>
     </section>
     <footer>

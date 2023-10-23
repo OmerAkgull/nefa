@@ -65,6 +65,10 @@ h6 {
   font-family: Poppins;
   font-weight: 600;
   size: 14px;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header h1 {
@@ -78,47 +82,62 @@ header h1 {
   font-family: Poppins;
   font-weight: 400;
   font-size: 14px;
+  color: var(--FONT-SECONDARY, #666);
 }
 
 #trending {
+  color: #000;
   font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  line-height: normal;
 }
 #trending:before {
   content: "🔥";
 }
 
 #topGainers {
+  color: #000;
   font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  line-height: normal;
 }
 #topGainers:before {
   content: "🚀";
 }
 
 #recentlyAdded {
+  color: #000;
   font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  line-height: normal;
 }
 #recentlyAdded:before {
   content: "💎";
 }
 
 th {
+  color: var(--FONT-SECONDARY, #666);
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 12px;
+  font-style: normal;
   font-weight: 400;
-  color: black;
-  opacity: 83%;
+  line-height: normal;
+  letter-spacing: -0.12px;
 }
 
 td {
+  color: #000;
   font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  line-height: normal;
 }
 
 .section-exchange h2 {
@@ -143,6 +162,7 @@ h3 {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
+  color: #666;
 }
 
 h4 {
@@ -230,6 +250,19 @@ footer .text-center {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.link-more {
+  color: var(--BLUE, #2f7cf0);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#footer-link {
+  color: var(--FONT-SECONDARY, #666);
 }
 
 @media screen and (min-width: 992px) {
@@ -456,6 +489,47 @@ footer .text-center {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  #trending {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #trending:before {
+    content: "🔥";
+  }
+  #topGainers {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #topGainers:before {
+    content: "🚀";
+  }
+  #recentlyAdded {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  #recentlyAdded:before {
+    content: "💎";
+  }
+  th {
+    color: var(--FONT-SECONDARY, #666);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.15px;
+  }
+  td {
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
   }
 }
 #navbarButton {

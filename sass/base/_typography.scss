@@ -20,6 +20,13 @@
   font-family: Poppins;
   font-weight: 600;
   size: 14px;
+  background: var(
+    --GRA-Blue,
+    linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header {
@@ -35,41 +42,47 @@ header {
   font-family: Poppins;
   font-weight: 400;
   font-size: 14px;
+  color: var(--FONT-SECONDARY, #666);
 }
 
 #trending {
-  @include mixins.table-title;
+  @include mixins.table-title-mobile;
   &:before {
     content: "🔥";
   }
 }
 
 #topGainers {
-  @include mixins.table-title;
+  @include mixins.table-title-mobile;
   &:before {
     content: "🚀";
   }
 }
 
 #recentlyAdded {
-  @include mixins.table-title;
+  @include mixins.table-title-mobile;
   &:before {
     content: "💎";
   }
 }
 
 th {
+  color: var(--FONT-SECONDARY, #666);
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 12px;
+  font-style: normal;
   font-weight: 400;
-  color: black;
-  opacity: 83%;
+  line-height: normal;
+  letter-spacing: -0.12px;
 }
 
 td {
+  color: #000;
   font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  line-height: normal;
 }
 
 .section-exchange {
@@ -94,6 +107,7 @@ h3 {
   font-family: Poppins;
   font-size: 15px;
   font-weight: 400;
+  color: #666;
 }
 
 h4 {
@@ -211,4 +225,17 @@ footer {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.link-more {
+  color: var(--BLUE, #2f7cf0);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#footer-link {
+  color: var(--FONT-SECONDARY, #666);
 }
