@@ -699,6 +699,12 @@ header {
   color: #F4574D;
 }
 
+@media screen and (min-width: 992px) {
+  .table-1,
+  .table-2 {
+    border-right: 1px solid #EAEAEA;
+  }
+}
 .graph {
   margin-top: -45px;
 }
