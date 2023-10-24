@@ -30,3 +30,13 @@
   width: 50%;
 }
 
+.button-footer {
+  border-radius: 12px;
+  background: var(
+    --GRA-Blue,
+    linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+  );
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}

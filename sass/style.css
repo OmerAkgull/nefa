@@ -573,6 +573,14 @@ footer .text-center {
   width: 50%;
 }
 
+.button-footer {
+  border-radius: 12px;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}
+
 #navContainer {
   max-width: 85% !important;
 }
@@ -638,45 +646,94 @@ footer .text-center {
   border-bottom: 1px solid #cccccc;
 }
 
-#starPurpleHeader {
-  position: absolute;
-  left: 670px;
-  right: 0px;
+@media screen and (min-width: 1499px) {
+  #starPurpleHeader {
+    position: absolute;
+    left: 670px;
+    right: 0px;
+  }
+  #circlePurpleHeader {
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    right: 0px;
+  }
+  #circleBlueHeader {
+    position: absolute;
+    left: 1050px;
+    bottom: 850px;
+  }
+  #circleOrangeHeader {
+    position: absolute;
+    right: -950px;
+    bottom: 420px;
+  }
+  #starPurpleTools {
+    position: absolute;
+    left: 200px;
+    bottom: 550px;
+  }
+  #circleOrangeTools {
+    position: absolute;
+    left: 900px;
+    bottom: 200px;
+  }
 }
-
-#circlePurpleHeader {
-  position: absolute;
-  bottom: 250px;
-  left: 100px;
-  right: 0px;
+@media screen and (max-width: 1499px) {
+  #starPurpleHeader {
+    position: absolute;
+    left: 500px;
+    right: 0px;
+  }
+  #circlePurpleHeader {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    right: 0px;
+  }
+  #circleBlueHeader {
+    position: absolute;
+    left: 750px;
+    bottom: 850px;
+  }
+  #circleOrangeHeader {
+    position: absolute;
+    right: -700px;
+    bottom: 600px;
+  }
+  #starPurpleTools {
+    position: absolute;
+    left: 150px;
+    bottom: 600px;
+  }
+  #circleOrangeTools {
+    position: absolute;
+    left: 700px;
+    bottom: 380px;
+  }
 }
-
-#circleBlueHeader {
-  position: absolute;
-  left: 1050px;
-  bottom: 850px;
-}
-
-#circleOrangeHeader {
-  position: absolute;
-  right: -950px;
-  bottom: 420px;
-}
-
-#starPurpleTools {
-  position: absolute;
-  left: 200px;
-  bottom: 550px;
-}
-
-#circleOrangeTools {
-  position: absolute;
-  left: 900px;
+#arrowOne {
   bottom: 200px;
+  left: 450px;
+}
+
+#arrowTwo {
+  bottom: 185px;
+  left: 450px;
 }
 
 .bg-gradient-light {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+
+.input-footer {
+  width: 240px;
+  height: 55px;
+  padding: 10px 10px 10px 14px;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #aaa;
 }
 
 #headerFirstColumn {
