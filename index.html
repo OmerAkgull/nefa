@@ -245,20 +245,19 @@
                         Crypto Coin. We accept
                         BTC crypto-currency</span></p>
                     <form class="my-3">
-                        <div>
-                            <label for="amount">Amount</label>
-                            <input type="number" placeholder="5,000">
-                            <select name="currency" id="currency">
+                        <div class="d-flex gap-2">
+                            <input type="number" class="input-amount" placeholder="5,000">
+                            <select class="select-1 d-flex justify-content-center align-items-center" name="currency"
+                                id="currency">
                                 <option selected value="USD">USD</option>
-                                <option value="Bitcoin">Bitcoin</option>
+                                <option value="BTC">BTC</option>
                             </select>
                         </div>
                         <div>
                             <br>
-                            <label for="Get">Get</label>
-                            <input type="number" placeholder="0.10901">
-                            <select name="currency" id="currency">
-                                <option selected value="Bitcoin">Bitcoin</option>
+                            <input type="number" class="input-get" placeholder="0.10901">
+                            <select class="select-2 ms-1 ms-lg-0" name="currency" id="currency">
+                                <option selected value="BTC">BTC</option>
                                 <option value="USD">USD</option>
                             </select>
                         </div>
@@ -541,7 +540,8 @@
                     <p class="w-75" id="under-text">Never miss anything crypto when you're on the go</p>
                     <div class="d-flex justify-content-center gap-3">
                         <input class="input-footer" type="email" placeholder="Enter your email">
-                        <button type="submit" class="btn btn-primary button-footer d-flex justify-content-center align-items-center"><svg
+                        <button type="submit"
+                            class="btn btn-primary button-footer d-flex justify-content-center align-items-center"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"
                                 fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd"

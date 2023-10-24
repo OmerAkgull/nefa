@@ -342,4 +342,23 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  .input-amount,
+  .input-get {
+    width: 336px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid var(--GRA-Blue2, #3984f4);
+  }
+
+  .select-1,
+  .select-2 {
+    width: 199px;
+    height: 80px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid var(--GRA-Blue2, #3984f4);
+  }
 }
