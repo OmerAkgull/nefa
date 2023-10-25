@@ -265,7 +265,7 @@ footer .text-center {
   color: var(--FONT-SECONDARY, #666);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1400px) {
   /*
   #headerContainer {
     max-width: 82% !important;
@@ -533,7 +533,7 @@ footer .text-center {
   }
   .input-amount,
   .input-get {
-    width: 336px;
+    width: 20rem !important;
     height: 80px;
     flex-shrink: 0;
     border-radius: 22px;
@@ -541,7 +541,7 @@ footer .text-center {
   }
   .select-1,
   .select-2 {
-    width: 199px;
+    width: 9rem !important;
     height: 80px;
     padding: 10px;
     flex-shrink: 0;
@@ -741,6 +741,14 @@ footer .text-center {
 
 .bg-gradient-light {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+
+header {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), rgba(70, 142, 249, 0.3));
+}
+
+nav {
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.9), #fdfdff, #e5effe);
 }
 
 .input-footer {
