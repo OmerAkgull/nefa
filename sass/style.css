@@ -531,22 +531,79 @@ footer .text-center {
     font-weight: 400;
     line-height: normal;
   }
-  .input-amount,
-  .input-get {
-    width: 20rem !important;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 22px;
-    border: 1px solid var(--GRA-Blue2, #3984f4);
-  }
   .select-1,
   .select-2 {
-    width: 9rem !important;
+    margin-left: 20px;
+    width: 185px;
     height: 80px;
     padding: 10px;
+    padding-left: 42px;
+    gap: 10px;
+    color: var(--FONT-BLACK, #222);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .label-one {
+    border-right: 1px solid #3984f4;
+    padding-right: 20px;
+    color: #3984f4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .label-two {
+    border-right: 1px solid #3984f4;
+    padding-right: 49px;
+    color: #3984f4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #inputOne,
+  #inputTwo {
+    width: 150px;
+    height: 80px;
     flex-shrink: 0;
     border-radius: 22px;
-    border: 1px solid var(--GRA-Blue2, #3984f4);
+    border: 1px solid #3984f4;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -9rem;
+    outline: none;
+    color: var(--FONT-BLACK, #222);
+    text-align: right;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #inputOne {
+    padding-right: 1rem;
+  }
+  .label-wrapper {
+    padding: 27px;
+    width: 300px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    border: 1px solid #3984f4;
   }
 }
 #navbarButton {
@@ -556,6 +613,10 @@ footer .text-center {
 
 .navbar-nav {
   margin-left: 5rem;
+}
+
+.navbar-brand {
+  min-width: 130px;
 }
 
 .nav-button {
@@ -761,23 +822,83 @@ nav {
   border: 1px solid #aaa;
 }
 
-.input-amount,
-.input-get {
-  width: 205px;
-  height: 70px;
-  flex-shrink: 0;
+.select-1,
+.select-2 {
+  margin-left: 0.5rem;
+  width: 150px;
+  height: 5rem;
+  padding: 10px;
+  padding-left: 42px;
+  gap: 10px;
+  color: var(--FONT-BLACK, #222);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   border-radius: 15px;
   border: 1px solid var(--GRA-Blue2, #3984f4);
 }
 
-.select-1,
-.select-2 {
-  width: 106px;
-  height: 70px;
-  padding: 10px;
+.label-one {
+  border-right: 1px solid #3984f4;
+  padding-right: 20px;
+  color: #3984f4;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.label-two {
+  border-right: 1px solid #3984f4;
+  padding-right: 49px;
+  color: #3984f4;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#inputOne,
+#inputTwo {
+  width: 150px;
+  height: 80px;
   flex-shrink: 0;
-  border-radius: 15px;
-  border: 1px solid var(--GRA-Blue2, #3984f4);
+  border-radius: 22px;
+  border: 1px solid #3984f4;
+  border-left: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-left: -9rem;
+  outline: none;
+  color: var(--FONT-BLACK, #222);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-right: 1rem;
+}
+
+.label-wrapper {
+  padding: 27px;
+  width: 13rem;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 22px;
+  border: 1px solid #3984f4;
 }
 
 #headerFirstColumn {
