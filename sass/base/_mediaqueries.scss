@@ -429,3 +429,46 @@
     border: 1px solid #3984f4;
   }
 }
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .container-exchange {
+    h2,
+    p {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .img-center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #creditColumn {
+    text-align: center;
+  }
+
+  .tools-column {
+    text-align: center;
+  }
+
+  .security-column {
+    text-align: center;
+  }
+
+  .accordion-column {
+    text-align: center;
+  }
+
+  #footer-2,
+  #footer-3,
+  #footer-4,
+  #footer-5 {
+    text-align: center;
+  }
+}

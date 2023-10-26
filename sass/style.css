@@ -606,6 +606,41 @@ footer .text-center {
     border: 1px solid #3984f4;
   }
 }
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .container-exchange h2,
+  .container-exchange p {
+    text-align: center;
+  }
+  .container-exchange form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #creditColumn {
+    text-align: center;
+  }
+  .tools-column {
+    text-align: center;
+  }
+  .security-column {
+    text-align: center;
+  }
+  .accordion-column {
+    text-align: center;
+  }
+  #footer-2,
+  #footer-3,
+  #footer-4,
+  #footer-5 {
+    text-align: center;
+  }
+}
 #navbarButton {
   padding: 0.85rem 2.8rem;
   font-size: 1rem;
