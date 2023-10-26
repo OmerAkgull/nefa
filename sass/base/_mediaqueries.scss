@@ -545,7 +545,7 @@
   }
 }
 
-@media screen and (min-width:1500px) and (max-width:1600px) {
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
   #headerFirstColumn {
     margin-top: 100px !important;
     padding-left: 150px;
@@ -553,5 +553,52 @@
 
   header {
     padding-bottom: 100px !important;
+  }
+
+  #circlePurpleHeader {
+    position: absolute;
+    bottom: 0px !important;
+    left: 100px;
+    right: 0px;
+  }
+
+  #starPurpleHeader {
+    position: absolute;
+    left: 550px !important;
+    right: 0px;
+  }
+
+  #circleBlueHeader {
+    position: absolute;
+    left: 800px !important;
+    bottom: 620px !important;
+  }
+
+  #circleOrangeHeader {
+    position: absolute;
+    right: -700px !important;
+    bottom: 300px !important;
+  }
+
+  #starPurpleTools {
+    position: absolute;
+    left: 130px !important;
+    bottom: 550px;
+  }
+
+  #circleOrangeTools {
+    position: absolute;
+    left: 650px !important;
+    bottom: 300px !important;
+  }
+
+  #arrowOne {
+    bottom: 220px !important;
+    left: 325px !important;
+  }
+
+  #arrowTwo {
+    bottom: 200px !important;
+    left: 330px !important;
   }
 }
