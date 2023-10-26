@@ -602,3 +602,61 @@
     left: 330px !important;
   }
 }
+
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  #headerFirstColumn {
+    margin-top: 100px !important;
+    padding-left: 150px;
+  }
+
+  header {
+    padding-bottom: 50px !important;
+  }
+
+  #circlePurpleHeader {
+    position: absolute;
+    bottom: 100px !important;
+    left: 100px;
+    right: 0px;
+  }
+
+  #starPurpleHeader {
+    position: absolute;
+    left: 550px !important;
+    right: 0px;
+  }
+
+  #circleBlueHeader {
+    position: absolute;
+    left: 900px !important;
+    bottom: 720px !important;
+  }
+
+  #circleOrangeHeader {
+    position: absolute;
+    right: -850px !important;
+    bottom: 340px !important;
+  }
+
+  #starPurpleTools {
+    position: absolute;
+    left: 130px !important;
+    bottom: 550px;
+  }
+
+  #circleOrangeTools {
+    position: absolute;
+    left: 750px !important;
+    bottom: 250px !important;
+  }
+
+  #arrowOne {
+    bottom: 220px !important;
+    left: 375px !important;
+  }
+
+  #arrowTwo {
+    bottom: 200px !important;
+    left: 390px !important;
+  }
+}
