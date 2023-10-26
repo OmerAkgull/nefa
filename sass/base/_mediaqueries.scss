@@ -7,6 +7,16 @@
   }
   */
 
+  .img-center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-globe {
+    min-width: 900px;
+  }
+
   #signUp {
     font-family: Poppins;
     font-weight: 600;
@@ -470,5 +480,78 @@
   #footer-4,
   #footer-5 {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  #headerFirstColumn {
+    margin-top: 70px !important;
+    padding-left: 150px;
+  }
+
+  header {
+    padding-bottom: 150px !important;
+  }
+
+  #circlePurpleHeader {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    right: 0px;
+  }
+
+  #starPurpleHeader {
+    position: absolute;
+    left: 600px !important;
+    right: 0px;
+  }
+
+  #circleBlueHeader {
+    position: absolute;
+    left: 800px !important;
+    bottom: 620px !important;
+  }
+
+  #circleOrangeHeader {
+    position: absolute;
+    right: -700px;
+    bottom: 300px !important;
+  }
+
+  #starPurpleTools {
+    position: absolute;
+    left: 150px;
+    bottom: 550px;
+  }
+
+  #circleOrangeTools {
+    position: absolute;
+    left: 600px;
+    bottom: 300px;
+  }
+
+  #arrowOne {
+    bottom: 220px !important;
+    left: 300px !important;
+  }
+
+  #arrowTwo {
+    bottom: 200px !important;
+    left: 300px !important;
+  }
+
+  .input-footer {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width:1500px) and (max-width:1600px) {
+  #headerFirstColumn {
+    margin-top: 100px !important;
+    padding-left: 150px;
+  }
+
+  header {
+    padding-bottom: 100px !important;
   }
 }
