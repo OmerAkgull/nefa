@@ -271,6 +271,9 @@ footer .text-center {
     max-width: 82% !important;
   }
   */
+  .no-wrap {
+    text-wrap: nowrap;
+  }
   #tether-svg {
     position: absolute;
     left: 650px;
@@ -630,8 +633,9 @@ footer .text-center {
     padding-right: 1rem;
   }
   .label-wrapper {
-    padding: 27px;
-    width: 300px;
+    padding-top: 1.5rem;
+    padding-left: 0.75rem !important;
+    width: 300px !important;
     height: 80px;
     flex-shrink: 0;
     border-radius: 22px;
@@ -977,6 +981,11 @@ footer .text-center {
   min-width: 130px;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1612px) {
+  .nav-button {
+    display: none;
+  }
+}
 .nav-button {
   width: 165px;
   height: 65px;
@@ -1167,7 +1176,7 @@ nav {
 
 .label-one {
   border-right: 1px solid #3984f4;
-  padding-right: 20px;
+  padding-right: 25px;
   color: #3984f4;
   font-family: Poppins;
   font-size: 14px;
@@ -1218,7 +1227,8 @@ nav {
 }
 
 .label-wrapper {
-  padding: 27px;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
   width: 13rem;
   height: 80px;
   flex-shrink: 0;

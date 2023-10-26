@@ -10,3 +10,9 @@
 .navbar-brand {
   min-width: 130px;
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1612px) {
+  .nav-button {
+    display: none;
+  }
+}
